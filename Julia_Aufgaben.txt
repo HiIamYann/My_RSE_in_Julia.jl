@@ -1,0 +1,8 @@
+print(1+1)
+
+function trapezoidal(f,a,b,N)
+	dx = (b-a)/N
+	x_range = [a+i*dx for i in 0:N]
+	sum = 0
+	for k in 1:N
+		sum += f(x_range[k-1])+f(x_range[k])/2*dx
