@@ -1,0 +1,5 @@
+name = "TrapezoidalRule"
+uuid = "f6a58891-db58-49ad-8e08-ea0d1cccdc4f"
+authors = ["Yann Ebling <yaebling@students.uni-mainz.de>"]
+version = "0.1.0"
+
